@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14319e68-d7ed-405f-9feb-5529c7189300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/admin/search.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/employee/addProd.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/employee/delete.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/employee/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/employee/update.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/update.ejs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +57,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Asp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/employee/update.ejs" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/views/employee/update.ejs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597562163036</updated>
-      <workItem from="1597562164250" duration="2204000" />
+      <workItem from="1597562164250" duration="3227000" />
+      <workItem from="1597594272446" duration="5991000" />
     </task>
     <servers />
   </component>
@@ -81,5 +94,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597599492103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="449" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1597599492103" />
+    <state x="430" y="223" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597599090040">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="430" y="223" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1597599090040" />
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1597599631612">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1597599631612" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1597599294638">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597599294638" />
   </component>
 </project>

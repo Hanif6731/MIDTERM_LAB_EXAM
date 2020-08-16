@@ -1,7 +1,7 @@
 var express 	= require('express');
 var exSession 	= require('express-session');
 var bodyParser 	= require('body-parser');
-//var employee=require('./controllers/employee');
+var employee=require('./controllers/employee');
 var login   = require('./controllers/login');
 var admin = require('./controllers/admin');
 var app 		= express();
@@ -27,7 +27,7 @@ app.use(exSession({secret: 'my secret value', saveUninitialized: true, resave: f
 app.use('/jquery',express.static('node_modules/jquery/dist'));
 app.use('/login',login);
 app.use('/admin',admin);
-//app.use('/employee',employee);
+app.use('/employee',employee);
 
 app.get('/', function(req, res){
     res.redirect('/login');

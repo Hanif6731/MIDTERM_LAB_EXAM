@@ -1,0 +1,48 @@
+<html>
+<head>
+
+</head>
+<body>
+<form method="post" action="/employee/updateProd/<%= id %>" onsubmit="return confirmUpdate()">
+    <fieldset>
+        <legend>Update product</legend>
+        <table>
+            <tr>
+                <td>ID</td>
+                <td><%= id %></td>
+            </tr>
+            <tr>
+                            <td>Name</td>
+                            <td><input type="text" value="<%=name%>" name="name" id="name"></td>
+                        </tr>
+                        <tr>
+                            <td>Quanity</td>
+                            <td>
+                                <input type="number" name="quantity" value="<%=quantity%>" min="1" id="username"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td><input type="number" name="price" value="<%=price%>" min="0.01" step="any" id="price"/></td>
+                        </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Save"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<a href="/logout">Logout</a>
+<script>
+    function confirmUpdate(){
+
+        var r=confirm('Are you sure to update product?');
+        if(r==true){
+            return true;
+        }else {
+            return false;
+        }
+    }
+</script>
+</body>
+</html>

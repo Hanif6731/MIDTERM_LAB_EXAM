@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee page</title>
+</head>
+<body>
+<h1>Welcome!</h1>
+<button type="button" name="addProduct" id="addProduct" onclick="toAddproduct()">Add product</button><br/>
+
+
+<h1>All product list</h1>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>quantity</th>
+        <th>price</th>
+        <th>Action</th>
+    </tr>
+    <% results.forEach(function (product) { %>
+        <tr><td><%= product.id %></td>
+            <td><%= product.name %></td>
+            <td><%= product.quantity %></td>
+            <td><%= product.price %></td>
+            <td colspan="2"><a href="/employee/updateProd/<%= product.id %>">Update</a> | <a href="/employee/deleteProd/<%= product.id %>">Delete</a></td>
+        </tr>
+    <% }) %>
+</table>
+
+<a href="/logout">Logout</a>
+<script>
+    function toAddproduct() {
+        window.location.href="/employee/addProduct";
+    }
+
+</script>
+</body>
+</html>

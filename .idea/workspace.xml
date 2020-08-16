@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14319e68-d7ed-405f-9feb-5529c7189300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/addEmp.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597562163036</updated>
-      <workItem from="1597562164250" duration="1011000" />
+      <workItem from="1597562164250" duration="1437000" />
     </task>
     <servers />
   </component>

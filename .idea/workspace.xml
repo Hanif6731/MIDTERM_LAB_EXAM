@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14319e68-d7ed-405f-9feb-5529c7189300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/addEmp.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/allEmp.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/update.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\academic\11th semester\atp3\MIDTERM_LAB_EXAM\views\admin" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597562163036</updated>
-      <workItem from="1597562164250" duration="1437000" />
+      <workItem from="1597562164250" duration="1610000" />
     </task>
     <servers />
   </component>

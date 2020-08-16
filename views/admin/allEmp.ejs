@@ -10,7 +10,6 @@
         <th>Name</th>
         <th>Phone</th>
         <th>Gender</th>
-        <th>Designation</th>
         <th colspan="2">action</th>
     </tr>
     <% results.forEach(function (emp) { %>
@@ -18,7 +17,6 @@
             <td><%= emp.Name %></td>
             <td><%= emp.Phone %></td>
             <td><%= emp.gender %></td>
-            <td><%= emp.designation %></td>
             <td colspan="2"><a href="/admin/update/<%= emp.empId %>">Update</a> | <a href="/admin/delete/<%= emp.empId %>">Delete</a></td></tr>
     <% }) %>
 </table>
